@@ -15,4 +15,4 @@ A set of interactive tutorials for the jQuery Learning Center http://learn.jquer
 
 ###### load these pages one at a time in your browser to see what happens
 
-##### To disable the tests while your working just comment out the line `<script src="tests.js"></script>`
+##### To tests when your ready just uncomment the line  `<!-- <script src="tests.js"></script> -->` by removing the `<!--` and `-->`
