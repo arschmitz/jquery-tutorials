@@ -16,7 +16,7 @@ A set of interactive tutorials for the jQuery Learning Center http://learn.jquer
  javascript:(function(){var url = window.location.href;window.location.href = url.replace( /github\.com/, "rawgit.com").replace( /blob\//,"" );})();
  ```
 
-##### To get you started go to the sample folder where there is a sample task along with a passing and a failing solution
+##### To get you started go to the sample folder. Here you will find a sample task along with a passing and a failing solution
 
 * index.html is the sample file
 * pass.html is the sample passing exercise
