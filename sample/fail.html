@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="//code.jquery.com/ui/jquery-ui-git.css" rel="stylesheet" type="text/css" />
+	<script src="//code.jquery.com/jquery-git.js"></script>
+	<script src="//code.jquery.com/ui/jquery-ui-git.js"></script>
+	<link href="http://code.jquery.com/qunit/qunit-1.17.1.css" rel="stylesheet" type="text/css" />
+	<script src="//code.jquery.com/qunit/qunit-1.17.1.js"></script>
+	<meta charset="utf-8">
+	<title>Modal Age Confirmation</title>
+	<script>
+		$(function(){
+			$( ".dialog-button" ).button().on( "click", function(){
+				$( ".confirm-dialog" ).dialog( "open" );
+			});
+			$( ".confirm-dialog" ).dialog({
+				autoOpen:false,
+				resizable: false,
+				title: "Are you 21 or older?",
+				height:140,
+				modal: true,
+				buttons: [
+					{
+						text: "Yes",
+						click: function() {
+							$( this ).dialog( "close" );
+							$( "#test-fixture" ).addClass( "pass" );
+						}
+					}
+				]
+			});
+		});
+	</script>
+</head>
+<body>
+		<div id="qunit"></div>
+		<div id="test-fixture">
+			<div class="confirm-dialog"></div>
+			<button class="dialog-button">Open Dialog</button>
+		</div>
+</body>
+<script src="tests.js"></script>
+</html>
