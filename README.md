@@ -10,12 +10,11 @@ A set of interactive tutorials for the jQuery Learning Center http://learn.jquer
 
 ##### to test your solution to a given exercise you can simply load the index.html page in your browser and see the results.
 
-##### NOTE: If you are using github.com to complete the tutorials you can use this bookmarklet 
+##### NOTE: If you are using github.com to complete the tutorials you can use the bookmarklet below. When viewing the index.html on github click the bookmarklet, to view the page in your browser with out the need of a local copy. 
 
  ```
  javascript:(function(){var url = window.location.href;window.location.href = url.replace( /github\.com/, "rawgit.com").replace( /blob\//,"" );})();
  ```
- when viewing the index.html on github to view the page in your browser with out the need of a local copy.
 
 ##### To get you started go to the sample folder where there is a sample task along with a passing and a failing solution
 
