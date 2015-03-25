@@ -1,7 +1,7 @@
 # jquery-tutorials
 A set of interactive tutorials for the jQuery Learning Center http://learn.jquery.com
 
-#### To complete the tutorials contained in this repositiroty please clone this repo by clicking the fork button above
+#### To complete the tutorials contained in this repositiroty please fork this repository by clicking the fork button above ![Fork Button](https://help.github.com/assets/images/help/repository/fork_button.jpg)
 
 ##### Once you have your own fork the next step is to get started each tutorial is contained in its own folder.
 
