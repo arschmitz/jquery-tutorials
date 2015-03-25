@@ -24,4 +24,4 @@ A set of interactive tutorials for the jQuery Learning Center http://learn.jquer
 
 ###### load these pages one at a time in your browser to see what happens
 
-##### To tests when your ready just uncomment the line  `<!-- <script src="tests.js"></script> -->` by removing the `<!--` and `-->`
+##### To run test and evaluate your solution just uncomment the line  `<!-- <script src="tests.js"></script> -->` by removing the `<!--` and `-->`
