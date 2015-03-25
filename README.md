@@ -13,6 +13,6 @@ A set of interactive tutorials for the jQuery Learning Center http://learn.jquer
 * pass.html is the sample passing exercise
 * fail.html is the sample failing exercise
 
-###### load this one at a time in your browser to see what happens
+###### load these pages one at a time in your browser to see what happens
 
 ##### To disable the tests while your working just comment out the line `<script src="tests.js"></script>`
