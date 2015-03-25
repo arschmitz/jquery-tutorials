@@ -34,6 +34,6 @@ test( "functionality", function(){
     button.click();
     ok( dialog.is( ":visible" ), "Clicking button opens dialog" );
     dialogButtons.eq( 2 ).click();
-    strictEqual( fixture.hasClass( "fail" ), true, "Dialog No button adds class pass to fixture" );
+    strictEqual( fixture.hasClass( "fail" ), true, "Dialog No button adds class fail to fixture" );
     strictEqual( dialog.is( ":visible" ), false, "Dialog No button closes dialog" );
 });
