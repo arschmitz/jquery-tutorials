@@ -5,7 +5,7 @@ A set of interactive tutorials for the jQuery Learning Center http://learn.jquer
 
 ### Getting Started
 
-#### Organization 
+#### Organization
 
 All of the turorials are within the tutorials directory in the root of this reposititory .
 
@@ -26,9 +26,9 @@ Once you have forked the repository your ready to get started
 
 ![Github.com file browser](https://camo.githubusercontent.com/234a183fcaeb9fbc5992c5f3dda8c36b9e1fff83/687474703a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f626c6f672f323031322f636f6d6d69742d746561736572732f726f6f742e6a7067)
 
-* Read the README.md 
+* Read the README.md
 * Click on index.html
-* Click the edit button 
+* Click the edit button
 
 ![Edit in github button](https://help.github.com/assets/images/help/repository/edit-file-edit-button.png)
 
@@ -42,7 +42,7 @@ Once you have forked the repository your ready to get started
 
 * Use the bookmarklet to view index.html on rawgit.com
 
-* To run test and evaluate your solution just uncomment the line  `<!-- <script src="tests.js"></script> -->` by removing the `<!--` and `-->` by editing index.html
+* To run test and evaluate your solution just click the blue "Run Tests" button in the upper right of the page
 
 
 #### Using your own editor locally ( Recomended )
@@ -55,13 +55,13 @@ Once you have forked the repository your ready to get started
 
 ![Github.com file browser](https://camo.githubusercontent.com/234a183fcaeb9fbc5992c5f3dda8c36b9e1fff83/687474703a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f626c6f672f323031322f636f6d6d69742d746561736572732f726f6f742e6a7067)
 
-* Read the README.md 
+* Read the README.md
 * Open the index.html in your favorite editor and make the nessasarry changes to complete the tutorial
 * Save index.html
 * Open index.html in your favorite browser
-* To run test and evaluate your solution just uncomment the line  `<!-- <script src="tests.js"></script> -->` by removing the `<!--` and `-->` by editing index.html
+* To run test and evaluate your solution just click the blue "Run Tests" button in the upper right of the page
 
-##### NOTE: If you are using github.com to complete the tutorials you can use the bookmarklet below. When viewing the index.html on github click the bookmarklet, to view the page in your browser with out the need of a local copy. 
+##### NOTE: If you are using github.com to complete the tutorials you can use the bookmarklet below. When viewing the index.html on github click the bookmarklet, to view the page in your browser with out the need of a local copy. Add by dragging [THIS LINK](javascript:(function(){var url = window.location.href;window.location.href = url.replace( /github\.com/, "rawgit.com").replace( /blob\//,"" );})();) onto your bookmark bar.
 
  ```js
  javascript:(function(){var url = window.location.href;window.location.href = url.replace( /github\.com/, "rawgit.com").replace( /blob\//,"" );})();
