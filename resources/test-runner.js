@@ -3,7 +3,6 @@ $(function(){
 	$( "body" ).append( testButton );
 	testButton.on( "click", function(){
 		$( "#qunit" ).show();
-		$( this ).hide();
 		runTests();
 	});
 });

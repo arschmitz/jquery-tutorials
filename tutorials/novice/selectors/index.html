@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Getting Started with selectors</title>
+	<link href="https://code.jquery.com/ui/jquery-ui-git.css" rel="stylesheet" type="text/css" />
+	<link href="https://code.jquery.com/qunit/qunit-1.17.1.css" rel="stylesheet" type="text/css" />
+	<link href="../../../resources/test-runner.css" rel="stylesheet" type="text/css" />
+	<script src="https://code.jquery.com/jquery-git.js"></script>
+	<script src="https://code.jquery.com/ui/jquery-ui-git.js"></script>
+	<script src="https://code.jquery.com/qunit/qunit-1.17.1.js"></script>
+	<script src="../../../resources/test-runner.js"></script>
+	<script src="tests.js"></script>
+	<!-- DO NOT EDIT ANYTHING ABOVE THIS LINE -->
+
+</head>
+<body>
+		<div id="qunit"></div>
+		
+		<form>
+			<h1>Enter the Correct selector for each scenerio then click "Run Tests"</h1>
+			
+			<hr/>
+			<label>
+				All elements with a class of <code>header-button</code>
+				<input id="class-selector">
+			</label>
+			<hr/>
+			<label>
+				Element with an id of <code>zoom</code>
+				<input id="id-selector">
+			</label>
+			<hr/>
+			<label>
+				All elements with a class of <code>fizz</code> with in an element with a class of <code>buzz"</code>
+				<input id="nested-class-selector">
+			</label>
+			<hr/>
+			<label>
+				All elements containing both the class <code>foo</code> and <code>bar</code>
+				<input id="compound-class-selector">
+			</label>
+			<hr/>
+		</form>
+</body>
+</html>
