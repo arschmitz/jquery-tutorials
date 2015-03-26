@@ -1,0 +1,25 @@
+.test-runner-button {
+	position: fixed;
+	top: 0;
+	right: 10px;
+	cursor: pointer;
+	display: inline-block;
+	min-height: 1em;
+	outline: 0;
+	border: none;
+	vertical-align: baseline;
+	font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+	margin: 0 .25em 0 0;
+	padding: .78571em 1.5em;
+	text-transform: none;
+	background-color: #1f88be;
+	color: #fff;
+	text-shadow: none;
+	font-weight: 700;
+	border-radius: 0  0  .2857rem .2857rem;
+	font-size: 1.3rem;
+}
+
+#qunit {
+	display: none;
+}
