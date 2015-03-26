@@ -61,8 +61,7 @@ Once you have forked the repository your ready to get started
 * Open index.html in your favorite browser
 * To run test and evaluate your solution just click the blue "Run Tests" button in the upper right of the page
 
-##### NOTE: If you are using github.com to complete the tutorials you can use the bookmarklet below. When viewing the index.html on github click the bookmarklet, to view the page in your browser with out the need of a local copy. Add by dragging the following link onto your bookmark bar.
-<a href='javascript:(function(){var url = window.location.href;window.location.href = url.replace( /github\.com/, "rawgit.com").replace( /blob\//,"" );})();'>BOOKMARKLET LINK</a>
+##### NOTE: If you are using github.com to complete the tutorials you can use the bookmarklet below. When viewing the index.html on github click the bookmarklet, to view the page in your browser with out the need of a local copy. Add by dragging the following text onto your bookmark bar.
 
  ```js
  javascript:(function(){var url = window.location.href;window.location.href = url.replace( /github\.com/, "rawgit.com").replace( /blob\//,"" );})();
