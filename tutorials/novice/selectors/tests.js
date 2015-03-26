@@ -1,21 +1,26 @@
 function runTests() {
-	test( "All elements with a class of `header-button`", function() {
-		ok( $( "#class-selector" ).val() === ".header-button", "Correct selector used" )
+	test( "Selector for all `<a>` elements", function() {
+		ok( $( "#element-selector" ).val() === "a", "Correct selector used" );
 	});
-	test( "Element with an id of `zoom`", function() {
-		ok( $( "#id-selector" ).val() === "#zoom", "Correct selector used" )
+
+	test( "selector for the element with the id `zoom`", function() {
+		ok( $( "#id-selector" ).val() === "#zoom", "Correct selector used" );
 	});
-	test( "All elements with a class of `fizz` within an element with a class of `buzz`", function() {
-		ok(
-			$( "#nested-class-selector" ).val() === ".buzz .fizz",
-			"Correct selector used"
-		);
+
+	test( "selector for the elements with the class `button`", function() {
+		ok( $( "#class-selector" ).val() === ".button", "Correct selector used" );
 	});
-	test( "All elements containing both the classes `foo` and `bar`", function() {
-		ok(
-			$( "#compound-class-selector" ).val() === ".foo.bar" ||
-			$( "#cpmpound-class-selector" ).val() === ".boo.bar",
-			"Correct selector used"
-		);
+
+	test( "Attribute selectors", function() {
+		ok( $( "#attr-selector-1" ).val() === "[type]", "Correct selector used" );
+		ok( $( "#attr-selector-2" ).val() === "input[type]", "Correct selector used" );
+		ok( $( "#attr-selector-3" ).val() === "input[type='text']", "Correct selector used" );
+	});
+
+	test( "Pseudo-Selectors", function() {
+		ok( $( "#pseudos-first-input" ).val() === "input:first", "Correct selector used" );
+		ok( $( "#pseudos-last-link" ).val() === "a:last", "Correct selector used" );
+		ok( $( "#pseudos-eq" ).val() === "img:eq(3)", "Correct selector used" );
+		ok( $( "#pseudos-empty" ).val() === "span:empty", "Correct selector used" );
 	});
 }

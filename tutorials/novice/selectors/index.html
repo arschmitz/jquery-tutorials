@@ -16,31 +16,70 @@
 </head>
 <body>
 		<div id="qunit"></div>
-		
+
 		<form>
 			<h1>Enter the Correct selector for each scenerio then click "Run Tests"</h1>
-			
-			<hr/>
+
 			<label>
-				All elements with a class of <code>header-button</code>
-				<input id="class-selector">
+				All <code>&lt;a></code> elements
+				<input id="element-selector">
 			</label>
-			<hr/>
+
+			<hr>
 			<label>
 				Element with an id of <code>zoom</code>
 				<input id="id-selector">
 			</label>
-			<hr/>
+			<hr>
+
 			<label>
-				All elements with a class of <code>fizz</code> with in an element with a class of <code>buzz"</code>
-				<input id="nested-class-selector">
+				Elements with the <code>button</code> class
+				<input id="class-selector">
 			</label>
-			<hr/>
+			<hr>
+
 			<label>
-				All elements containing both the class <code>foo</code> and <code>bar</code>
-				<input id="compound-class-selector">
+				All elements with a <code>type</code> attribute.
+				<input id="attr-selector-1">
 			</label>
-			<hr/>
+			<hr>
+
+			<label>
+				All <code>input</code> elements with a <code>type</code> attribute.
+				<input id="attr-selector-2">
+			</label>
+			<hr>
+
+			<label>
+				All <code>input</code> elements with a <code>type</code> attribute set to <code>text</code>.
+				<input id="attr-selector-3">
+			</label>
+			<hr>
+
+			<label>
+				The first <code>input</code> element.
+				<input id="pseudos-first-input">
+			</label>
+			<hr>
+
+			<label>
+				The last link on the page.
+				<input id="pseudos-last-link">
+			</label>
+			<hr>
+
+			<label>
+				The third image on the page
+				<input id="pseudos-eq">
+			</label>
+			<hr>
+
+			<label>
+				All empty <code>&lt;span></code> elements
+				<input id="pseudos-empty">
+			</label>
+			<hr>
+
 		</form>
 </body>
 </html>
